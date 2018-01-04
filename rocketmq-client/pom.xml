@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.alibaba.rocketmq</groupId>
+        <artifactId>rocketmq-all</artifactId>
+        <version>3.5.8</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+    <artifactId>rocketmq-client</artifactId>
+    <name>rocketmq-client ${project.version}</name>
+
+    <prerequisites>
+        <maven>2.2.1</maven> <!--构建该项目或使用该插件所需要的Maven的最低版本-->
+    </prerequisites>
+
+    <modules>
+        <module>rocketmq-client</module>
+        <module>rocketmq-common</module>
+        <module>rocketmq-broker</module>
+        <module>rocketmq-tools</module>
+        <module>rocketmq-store</module>
+        <module>rocketmq-namesrv</module>
+        <module>rocketmq-remoting</module>
+        <module>rocketmq-example</module>
+        <module>rocketmq-filtersrv</module>
+        <module>rocketmq-srvutil</module>
+    </modules>
+
+    <developers>
+        <developer>
+            <id>vintagewang</id>
+            <name>vintagewang</name>
+            <roles>
+                <role>project leader</role>
+                <role>architect</role>
+            </roles>
+            <email>vintage.wang@gmail.com</email>
+            <url>https://github.com/vintagewang</url>
+            <timezone>8</timezone>
+        </developer>
+        <developer>
+            <id>vongosling</id>
+            <name>vongosling</name>
+            <roles>
+                <role>project leader</role>
+                <role>architect</role>
+            </roles>
+            <email>fengjia10@gmail.com</email>
+            <url>https://github.com/vongosling</url>
+            <timezone>+8</timezone>
+        </developer>
+        <developer>
+            <id>manhong</id>
+            <name>manhong</name>
+            <email>manhong.yqd@alibaba-inc.com</email>
+            <url>https://github.com/YangJodie</url>
+            <timezone>8</timezone>
+        </developer>
+        <developer>
+            <id>mouyu</id>
+            <name>mouyu</name>
+            <email>lollipop_jin@126.com</email>
+            <url>https://github.com/lollipopjin</url>
+            <timezone>8</timezone>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--maven properties -->
+        <maven.test.skip>true</maven.test.skip>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
+        <!-- compiler settings properties -->
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
+    <scm>
+        <url>git@gitlab.alibaba-inc.com:middleware/rocketmq.git</url>
+        <connection>scm:git:git@gitlab.alibaba-inc.com:middleware/rocketmq.git</connection>
+        <developerConnection>scm:git:git@gitlab.alibaba-inc.com:middleware/rocketmq.git</developerConnection>
+    </scm>
+</project>

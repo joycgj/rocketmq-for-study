@@ -22,4 +22,6 @@ study effective java
     
     代码块有什么作用
     
-
+MessageSysFlag 没有理解
+MessageExt ByteBuffer.allocate  byteBuffer.flip() study java nio
+MessageExt inetSocketAddress.getAddress().getHostAddress()

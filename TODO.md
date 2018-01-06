@@ -25,3 +25,7 @@ study effective java
 MessageSysFlag 没有理解
 MessageExt ByteBuffer.allocate  byteBuffer.flip() study java nio
 MessageExt inetSocketAddress.getAddress().getHostAddress()
+ClientLogger System.setProperty
+ClientLogger if (isloadconfig) { DOMConfigurator
+
+

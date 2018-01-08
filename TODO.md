@@ -27,5 +27,6 @@ MessageExt ByteBuffer.allocate  byteBuffer.flip() study java nio
 MessageExt inetSocketAddress.getAddress().getHostAddress()
 ClientLogger System.setProperty
 ClientLogger if (isloadconfig) { DOMConfigurator
+AllocateMessageQueueByMachineRoom 没看懂
 
 

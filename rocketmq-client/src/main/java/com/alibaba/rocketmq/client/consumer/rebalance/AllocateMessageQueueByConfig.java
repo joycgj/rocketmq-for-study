@@ -5,6 +5,7 @@ import com.alibaba.rocketmq.common.message.MessageQueue;
 
 import java.util.List;
 
+// done
 public class AllocateMessageQueueByConfig implements AllocateMessageQueueStrategy {
     private List<MessageQueue> messageQueueList;
 
